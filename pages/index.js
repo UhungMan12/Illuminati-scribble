@@ -95,16 +95,16 @@ export default function Home() {
           property="og:image"
           content={`${HOST}/og-b7xwc4g4wrdrtneilxnbngzvti.png`}
         />
-        <title>{pkg.appName}</title>s
+        <title>토크온 광명회 그림 변환기</title>s
       </Head>
       <main className="container max-w-[1024px] mx-auto p-5 ">
         <div className="container max-w-[512px] mx-auto">
           <hgroup>
             <h1 className="text-center text-5xl font-bold m-4">
-              {pkg.appName}
+            토크온 광명회 그림 변환기
             </h1>
             <p className="text-center text-xl opacity-60 m-4">
-              {pkg.appSubtitle}
+            AI를 사용하여 그림을 세련된 이미지로 변환
             </p>
           </hgroup>
 

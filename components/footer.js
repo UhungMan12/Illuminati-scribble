@@ -1,45 +1,10 @@
 import Link from "next/link";
 
-export default function Footer({ events }) {
+export default function Footer() {
   return (
-    <footer className="w-full my-8">
-      <div className="text-center lil-text mt-8">
-        <div className="inline-block py-3 px-4 border bg-gray-200 rounded-lg">
-          🍿 Want to build an app like this? <Link
-          href="https://github.com/replicate/scribble-diffusion"
-          target="_blank">Fork it on GitHub</Link> or check out the{" "}
-          <Link href="https://youtu.be/6z07OdbrWOs" target="_blank">
-            video tutorial
-          </Link>
-          .
-        </div>
-      </div>
-
-      <div className="text-center lil-text mt-8">
-        Powered by{" "}
-        <Link
-          href="https://github.com/lllyasviel/ControlNet"
-          target="_blank"
-        >
-          ControlNet
-        </Link> by <Link href="https://lllyasviel.github.io/Style2PaintsResearch/lvmin" target="_blank">Lyumin Zhang</Link>
-        ,{" "}
-        <Link
-          href="https://replicate.com/jagilley/controlnet-scribble?utm_source=project&utm_campaign=scribblediffusion"
-          target="_blank"
-        >
-          Replicate
-        </Link>
-        ,{" "}
-        <Link href="https://vercel.com/templates/ai" target="_blank">
-          Vercel
-        </Link>
-        , and {" "}
-        <Link href="https://upload.io" target="_blank">
-          Upload
-        </Link>
-        .
-        
+    <footer className="text-center h-16 sm:h-20 w-full sm:pt-2 pt-4 border-t mt-5 flex sm:flex-row flex-col justify-between items-center px-3 space-y-3 sm:mb-0 mb-3">
+      <div>
+        토크온 광명회 그림 변환기
       </div>
     </footer>
   );

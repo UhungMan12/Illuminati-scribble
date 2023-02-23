@@ -18,7 +18,7 @@ export default function Predictions({ predictions, submissionCount }) {
 
   return (
     <section className="w-full my-10">
-      <h2 className="text-center text-3xl font-bold m-6">Results</h2>
+      <h2 className="text-center text-3xl font-bold m-6">결과다 이^기야</h2>
 
       {submissionCount > Object.keys(predictions).length && (
         <div className="pb-10 mx-auto w-full text-center">
